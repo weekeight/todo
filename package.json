@@ -1,0 +1,25 @@
+{
+	"family" : "todo",
+     "name" : "example-todo",
+     "version" : "1.0.0",
+     "author" : "benfchen",
+	   "repository": {
+			"type": "git",
+			"url": "git://github.com/gruntjs/grunt-contrib-uglify.git"
+		  },
+	 "description" : "this is a todo example",
+	 "spm" : {
+		"alias" : {
+		  "$": "assets/scripts/modules/jquery/jquery/1.10.1/jquery.js",
+		  "underscore": "assets/scripts/modules/gallery/underscore/1.4.4/underscore.js",
+		  "backbone": "assets/scripts/modules/gallery/backbone/1.0.0/backbone.js"
+		}
+	 },
+     "devDependencies" : {
+          "grunt" : "0.4.1",
+          "grunt-cmd-transport" : "0.1.1",
+          "grunt-cmd-concat" : "0.1.0",
+          "grunt-contrib-uglify" : "0.2.0",
+          "grunt-contrib-clean" : "0.4.0"
+     }
+}
